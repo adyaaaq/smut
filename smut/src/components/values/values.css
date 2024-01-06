@@ -1,0 +1,26 @@
+.Values {
+    width: 100%;
+    background-color: aquamarine;
+    height: 100%;
+      flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .valueItem {
+    width: 20%;
+    border-radius: 5%;
+    box-shadow: #282c34;
+    background-color: #282c34;
+    padding: 1%;
+    color: white;
+    margin: 1%;
+  }
+  h1{
+    font-size: 100%;
+  }
+  p{
+    text-indent: 20%;
+    text-align: justify;
+    font-size: 70%;
+  }

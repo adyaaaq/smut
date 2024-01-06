@@ -1,0 +1,33 @@
+.App {
+  width: 100%;
+  background-color: aquamarine;
+  height: 100%;
+    flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* max-width: 1920px; */
+}
+
+.item{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+  margin: 30px
+}
+.item h2{
+  width: 30%;
+}
+.list{
+  display:inline-table;
+  background-color: blue;
+  text-align: left;
+  /* margin-left: 10px; */
+  width: 70%;
+}
+.list ul{
+  columns: 3; /* Set to 'auto' for automatic adjustment */
+}
